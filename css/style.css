@@ -1,0 +1,218 @@
+/* Universal Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: black;
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+header .header-content {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+header #logo {
+  width: 15rem;
+  padding: 1.5rem 0.5rem 2rem 1.5rem;
+}
+
+/* Nav */
+
+nav {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 2rem;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: gray;
+}
+
+/* Main Section */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 5rem;
+  min-height: 60vh;
+  justify-content: flex-end;
+}
+
+.main .main-img {
+  background-image: url("../images/main.jpg");
+  position: absolute;
+  background-size: cover;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main .main-content {
+  min-width: 50%;
+  text-align: left;
+  padding: 1.5rem;
+}
+
+/* Hummus Section */
+
+.hummus-area {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 500px;
+}
+
+.hummus-section-title {
+  font-size: 2rem;
+  width: 100%;
+  padding: 2.2rem;
+  text-align: center;
+  margin: auto;
+}
+
+.hummus-content {
+  padding: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin: auto;
+}
+
+.hummus-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+img {
+  width: 200px;
+}
+
+.hummus-item span {
+  min-width: 140px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.hummus-item-1 .hummus-item-2 .hummus-item-3 {
+  margin: auto;
+}
+
+.button {
+  margin: 2rem auto;
+  padding: 15px;
+  color: white;
+  background-color: gray;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Drivethru Section */
+
+.drivethru-section {
+  color: white;
+  background-color: #323232;
+  padding: 2rem;
+}
+
+.drivethru-section-title {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.drivethru-section-title h2 {
+  padding: 15px;
+}
+
+.drivethru-content {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drivethru-content span {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  margin: auto;
+}
+
+img {
+  padding: 10px;
+  width: 300px;
+}
+
+.drivethru {
+  padding: 10px;
+  margin: 1.5rem;
+  flex-basis: 280px;
+}
+
+/* Footer */
+
+.contact {
+  position: relative;
+  top: 2rem;
+}
+
+footer .logo {
+  position: absolute;
+  left: 0;
+  padding: 1rem 1rem 0 1.4rem;
+}
+
+.contact-left {
+  text-align: left;
+  padding: 4.2rem 0 4rem 1.8rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
