@@ -104,7 +104,7 @@ nav li a:hover {
 .hummus-section-title {
   font-size: 2rem;
   width: 100%;
-  padding: 2.2rem;
+  padding: 4rem 2.2rem 2.2rem 2.2rem;
   text-align: center;
   margin: auto;
 }
@@ -206,13 +206,29 @@ img {
 footer .logo {
   position: absolute;
   left: 0;
-  padding: 1rem 1rem 0 1.4rem;
+  padding: 1rem 1rem 0 1.5rem;
 }
 
 .contact-left {
   text-align: left;
-  padding: 4.2rem 0 4rem 1.8rem;
+  padding: 4.2rem 0 4rem 1.9rem;
   line-height: 1.6rem;
   font-weight: bold;
 }
+
+.contact-right {
+  text-align: right;
+  padding: 2rem 3rem 4rem 2rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* hummus page */
 
