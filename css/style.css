@@ -1,5 +1,5 @@
 /* Universal Styles */
-* {
+*, *::before, *::after{
   padding: 0;
   margin: 0;
 }
@@ -133,7 +133,6 @@ img {
   min-width: 140px;
   font-weight: bold;
   font-size: 1.3rem;
-  text-align: center;
   margin-left: 2rem;
 }
 
@@ -151,6 +150,24 @@ img {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.button a:link {
+  text-decoration: none;
+}
+
+.button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.button a:hover {
+  text-decoration: underline;
+}
+
+.button a:active {
+  text-decoration: none;
 }
 
 /* Drivethru Section */
@@ -216,19 +233,67 @@ footer .logo {
   font-weight: bold;
 }
 
-.contact-right {
-  text-align: right;
-  padding: 2rem 3rem 4rem 2rem;
-  line-height: 1.5rem;
+/* hummums page */
+
+.hummus-page-container {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 500px;
+  position: relative;
+  top: 100px;
+}
+
+.hummus-page-header, .local-grocers-page-header {
+  z-index: 3;
+}
+
+.hummus-item-10 {
+  padding-bottom: 8rem;
+}
+
+/* local grocers page */
+
+.local-grocers-page-container {
+  position: relative;
+  top: 100px;
+  padding-top: 2rem;
+}
+
+.local-grocers-page-title {
+  padding: 2.5rem;
+}
+
+ul.grocers-container {
+  list-style-type: none;
   font-weight: bold;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  text-align: center;
+  padding: 3rem 2rem 12rem 2rem;
 }
 
-h2 {
-  font-size: 2rem;
+ul.grocers-container li {
+  padding: 0.3rem;
 }
 
-/* hummus page */
+ul.grocers-container li a:link {
+  text-decoration: none;
+}
+
+ul.grocers-container li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+ul.grocers-container li a:hover {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul.grocers-container li a:active {
+  text-decoration: none;
+}
+
+
 
