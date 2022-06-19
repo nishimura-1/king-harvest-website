@@ -69,7 +69,6 @@ nav li a:hover {
   color: white;
   padding-top: 5rem;
   min-height: 60vh;
-  justify-content: flex-end;
 }
 
 .main .main-img {
@@ -88,7 +87,10 @@ nav li a:hover {
 .main .main-content {
   min-width: 50%;
   text-align: left;
-  padding: 1.5rem;
+  padding-top: 3rem;
+  font-size: 4.5rem;
+  text-align: center;
+  text-shadow: 5px 5px #323232;
 }
 
 /* Hummus Section */
@@ -253,6 +255,83 @@ footer .logo {
   padding-bottom: 8rem;
 }
 
+/* drive-thru page */
+
+.drive-thru-page-title {
+  position: relative;
+  top: 160px;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.drive-thru-section {
+  padding-bottom: 10rem;
+}
+
+.drive-thru-content, .drive-thru-menu {
+  position: relative;
+  top: 170px;
+  display: flex;
+  border: 2px solid black;
+  min-height: 300px;
+  margin: 1.5rem 1.5rem 5rem 1.5rem;
+  background-color: #323232;
+}
+
+.drive-thru-item, .drive-thru-menu-item {
+  width: 200px;
+  margin: auto;
+  padding: 2rem;
+  border: 2px solid black;
+  min-height: 300px;
+  flex-grow: 2;
+  margin: 0.5rem;
+}
+
+.drive-thru-item-1 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.drive-thru-item-2 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.drive-thru-item-3 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.drive-thru-item-4 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.menu-section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  text-align: left;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.drive-thru-menu-item-1 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.drive-thru-menu-item-2 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.drive-thru-menu-item-3 {
+  font-weight: bold;
+  background-color: white;
+}
+
 /* local grocers page */
 
 .local-grocers-page-container {
@@ -296,6 +375,7 @@ ul.grocers-container button:hover {
   background-color: gray;
   cursor: pointer;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 ul.grocers-container button:active {
@@ -304,30 +384,80 @@ ul.grocers-container button:active {
 
 /* drive-thru page */
 
-.drive-thru-container {
+.drive-thru-page-title {
   position: relative;
-  top: 130px;
-}
-
-.drive-thru-title {
+  top: 160px;
   font-size: 2rem;
-  padding: 2.5rem;
+  padding-bottom: 3rem;
+  color: white;
 }
 
-.drive-thru-content {
-  display: flex;
-  margin: auto;
-  width: 100%;
-  flex-wrap: wrap;
-  min-height: 500px;
+.drive-thru-section {
+  padding-bottom: 10rem;
+  background-color: #323232;
+}
+
+.drive-thru-content, .drive-thru-menu {
   position: relative;
-  top: 100px;
+  top: 170px;
+  display: flex;
+  min-height: 300px;
+  margin: 1.5rem 1.5rem 5rem 1.5rem;
+  background-color: white;
 }
 
+.drive-thru-item, .drive-thru-menu-item {
+  width: 200px;
+  margin: auto;
+  padding: 2rem;
+  min-height: 300px;
+  flex-grow: 2;
+  margin: 0.5rem;
+  background-color: #323232;
+  color: white; 
+}
+
+.drive-thru-item-1 {
+  font-weight: bold;
+}
+
+.drive-thru-item-2 {
+  font-weight: bold;
+}
+
+.drive-thru-item-3 {
+  font-weight: bold;
+}
+
+.drive-thru-item-4 {
+  font-weight: bold;
+}
+
+.menu-section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  text-align: left;
+  margin: 1rem 1rem 1rem 2rem;
+  color: white;
+}
+
+.drive-thru-menu-item-1 {
+  font-weight: bold;
+}
+
+.drive-thru-menu-item-2 {
+  font-weight: bold;
+}
+
+.drive-thru-menu-item-3 {
+  font-weight: bold;
+}
 
 /* contact page */
 
-.contact-info-container {
+section .contact-info-container {
   position: relative;
   top: 130px;
 }
@@ -335,4 +465,6 @@ ul.grocers-container button:active {
 .contact-title {
   font-size: 2rem;
   padding: 2.5rem;
-}
+} 
+
+
