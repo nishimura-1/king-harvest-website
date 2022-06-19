@@ -5,7 +5,7 @@
 }
 
 body {
-  color: black;
+  color: #323232;
   font-family: Helvetica;
   padding: 0;
   margin: 0;
@@ -52,7 +52,7 @@ nav li {
 }
 
 nav li a {
-  color: black;
+  color: #323232;
   text-decoration: none;
   font-weight: bold;
 }
@@ -255,83 +255,6 @@ footer .logo {
   padding-bottom: 8rem;
 }
 
-/* drive-thru page */
-
-.drive-thru-page-title {
-  position: relative;
-  top: 160px;
-  font-size: 2rem;
-  padding-bottom: 3rem;
-}
-
-.drive-thru-section {
-  padding-bottom: 10rem;
-}
-
-.drive-thru-content, .drive-thru-menu {
-  position: relative;
-  top: 170px;
-  display: flex;
-  border: 2px solid black;
-  min-height: 300px;
-  margin: 1.5rem 1.5rem 5rem 1.5rem;
-  background-color: #323232;
-}
-
-.drive-thru-item, .drive-thru-menu-item {
-  width: 200px;
-  margin: auto;
-  padding: 2rem;
-  border: 2px solid black;
-  min-height: 300px;
-  flex-grow: 2;
-  margin: 0.5rem;
-}
-
-.drive-thru-item-1 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.drive-thru-item-2 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.drive-thru-item-3 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.drive-thru-item-4 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.menu-section-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  position: relative;
-  top: 170px;
-  text-align: left;
-  margin: 1rem 1rem 1rem 2rem;
-}
-
-.drive-thru-menu-item-1 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.drive-thru-menu-item-2 {
-  font-weight: bold;
-  background-color: white;
-}
-
-.drive-thru-menu-item-3 {
-  font-weight: bold;
-  background-color: white;
-}
-
 /* local grocers page */
 
 .local-grocers-page-container {
@@ -347,8 +270,9 @@ footer .logo {
 
 ul.grocers-container button {
   padding: 0.5rem;
-  font-size: 1rem;
-  background-color: white;
+  font-size: 1.1rem;
+  background-color: gray;
+  color: white;
 }
 
 ul.grocers-container {
@@ -366,13 +290,13 @@ ul.grocers-container button:link {
 }
 
 ul.grocers-container button:visited {
-  color: black;
+  color: #323232;
   text-decoration: none;
 }
 
 ul.grocers-container button:hover {
-  color: white;
-  background-color: gray;
+  color: #323232;
+  background-color: white;
   cursor: pointer;
   text-decoration: none;
   transition: 0.2s;
@@ -397,13 +321,13 @@ ul.grocers-container button:active {
   background-color: #323232;
 }
 
-.drive-thru-content, .drive-thru-menu {
+.drive-thru-content, .drive-thru-menu-1, .drive-thru-menu-2 {
   position: relative;
   top: 170px;
   display: flex;
   min-height: 300px;
   margin: 1.5rem 1.5rem 5rem 1.5rem;
-  background-color: white;
+  background-color: #323232;
 }
 
 .drive-thru-item, .drive-thru-menu-item {
@@ -413,23 +337,41 @@ ul.grocers-container button:active {
   min-height: 300px;
   flex-grow: 2;
   margin: 0.5rem;
-  background-color: #323232;
-  color: white; 
-}
-
-.drive-thru-item-1 {
+  background-color: white;
+  color: #323232; 
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.drive-thru-item-2 {
+.drive-thru-item p {
+  font-weight: normal;
+  padding-top: 2rem;
+  font-size: 1rem;
+}
+
+.drive-thru-item-1 p.half {
+  font-size: 7.5rem;
+  padding: 2rem 0 1rem 0;
+  color: #048653;
+}
+
+.drive-thru-item-2 p.month{
+  font-size: 3rem;
+  padding: 5.2rem 0 3rem 0;
   font-weight: bold;
+  color: #048653;
 }
 
-.drive-thru-item-3 {
-  font-weight: bold;
+.drive-thru-item-3 p.two-dollar {
+  font-size: 7rem;
+  padding: 3.2rem 0 1.5rem 0;
+  color: #048653;
 }
 
-.drive-thru-item-4 {
+.drive-thru-item-4 p.combo {
+  font-size: 2.7rem;
+  padding: 6.5rem 0 2.5rem 0;
+  color: #048653;
   font-weight: bold;
 }
 
@@ -443,21 +385,14 @@ ul.grocers-container button:active {
   color: white;
 }
 
-.drive-thru-menu-item-1 {
-  font-weight: bold;
-}
-
-.drive-thru-menu-item-2 {
-  font-weight: bold;
-}
-
-.drive-thru-menu-item-3 {
-  font-weight: bold;
+.drive-thru-menu-item p {
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 /* contact page */
 
-section .contact-info-container {
+.contact-info-container {
   position: relative;
   top: 130px;
 }
