@@ -1,4 +1,5 @@
-/* Universal Styles */
+/* UNIVERSAL STYLES */
+
 *, *::before, *::after{
   padding: 0;
   margin: 0;
@@ -7,12 +8,10 @@
 body {
   color: #323232;
   font-family: Helvetica;
-  padding: 0;
-  margin: 0;
   text-align: center;
 }
 
-/* Header */
+/* HEADER */
 
 header {
   position: fixed;
@@ -32,7 +31,7 @@ header #logo {
   padding: 1.5rem 0.5rem 2rem 1.5rem;
 }
 
-/* Nav */
+/*NAV */
 
 nav {
   display: flex;
@@ -61,7 +60,7 @@ nav li a:hover {
   color: gray;
 }
 
-/* Main Section */
+/* MAIN SECTION */
 
 .main {
   display: flex;
@@ -76,24 +75,24 @@ nav li a:hover {
   position: absolute;
   background-size: cover;
   top: 5rem;
-  left: 0;
   width: 100%;
   height: 60%;
   z-index: -1;
   background-position: center;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 
 .main .main-content {
   min-width: 50%;
   text-align: left;
-  padding-top: 3rem;
-  font-size: 4.5rem;
+  padding-top: 5rem;
+  font-size: 4rem;
   text-align: center;
-  text-shadow: 5px 5px #323232;
+  text-shadow: 4px 4px #323232;
 }
 
-/* Hummus Section */
+/* HUMMUS SECTION */
 
 .hummus-area {
   margin: auto;
@@ -172,7 +171,7 @@ img {
   text-decoration: none;
 }
 
-/* Drivethru Section */
+/* DRIVETHRU SECTION */
 
 .drivethru-section {
   color: white;
@@ -215,11 +214,11 @@ img {
   flex-basis: 280px;
 }
 
-/* Footer */
+/* FOOTER */
 
 .contact {
   position: relative;
-  top: 2rem;
+  top: 0.7rem;
 }
 
 footer .logo {
@@ -230,12 +229,12 @@ footer .logo {
 
 .contact-left {
   text-align: left;
-  padding: 4.2rem 0 4rem 1.9rem;
+  padding: 4.2rem 0 2rem 1.9rem;
   line-height: 1.6rem;
   font-weight: bold;
 }
 
-/* hummums page */
+/* HUMMUS PAGE */
 
 .hummus-page-container {
   margin: auto;
@@ -255,7 +254,7 @@ footer .logo {
   padding-bottom: 8rem;
 }
 
-/* local grocers page */
+/* LOCAL GROCERS PAGE */
 
 .local-grocers-page-container {
   position: relative;
@@ -295,8 +294,7 @@ ul.grocers-container button:visited {
 }
 
 ul.grocers-container button:hover {
-  color: #323232;
-  background-color: white;
+  background-color: #323232;
   cursor: pointer;
   text-decoration: none;
   transition: 0.2s;
@@ -306,9 +304,9 @@ ul.grocers-container button:active {
   text-decoration: none;
 }
 
-/* drive-thru page */
+/* DRIVETHRU PAGE */
 
-.drive-thru-page-title {
+.drivethru-page-title {
   position: relative;
   top: 160px;
   font-size: 2rem;
@@ -316,12 +314,12 @@ ul.grocers-container button:active {
   color: white;
 }
 
-.drive-thru-section {
+.drivethru-page-section {
   padding-bottom: 10rem;
   background-color: #323232;
 }
 
-.drive-thru-content, .drive-thru-menu-1, .drive-thru-menu-2 {
+.drivethru-page-content, .drivethru-menu-1, .drivethru-menu-2 {
   position: relative;
   top: 170px;
   display: flex;
@@ -330,7 +328,7 @@ ul.grocers-container button:active {
   background-color: #323232;
 }
 
-.drive-thru-item, .drive-thru-menu-item {
+.drivethru-item, .drivethru-menu-item {
   width: 200px;
   margin: auto;
   padding: 2rem;
@@ -343,32 +341,32 @@ ul.grocers-container button:active {
   font-size: 1.2rem;
 }
 
-.drive-thru-item p {
+.drivethru-item p {
   font-weight: normal;
   padding-top: 2rem;
   font-size: 1rem;
 }
 
-.drive-thru-item-1 p.half {
+.drivethru-item-1 p.half {
   font-size: 7.5rem;
   padding: 2rem 0 1rem 0;
   color: #048653;
 }
 
-.drive-thru-item-2 p.month{
+.drivethru-item-2 p.month{
   font-size: 3rem;
   padding: 5.2rem 0 3rem 0;
   font-weight: bold;
   color: #048653;
 }
 
-.drive-thru-item-3 p.two-dollar {
+.drivethru-item-3 p.two-dollar {
   font-size: 7rem;
   padding: 3.2rem 0 1.5rem 0;
   color: #048653;
 }
 
-.drive-thru-item-4 p.combo {
+.drivethru-item-4 p.combo {
   font-size: 2.7rem;
   padding: 6.5rem 0 2.5rem 0;
   color: #048653;
@@ -385,16 +383,17 @@ ul.grocers-container button:active {
   color: white;
 }
 
-.drive-thru-menu-item p {
+.drivethru-menu-item p {
   font-weight: normal;
   font-size: 1rem;
 }
 
-/* contact page */
+/* CONTACT PAGE */
 
 .contact-info-container {
   position: relative;
   top: 130px;
+  padding-bottom: 18rem;
 }
 
 .contact-title {
