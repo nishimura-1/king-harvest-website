@@ -246,7 +246,7 @@ footer .logo {
   top: 100px;
 }
 
-.hummus-page-header, .local-grocers-page-header, .drive-thru-header {
+.hummus-page-header, .local-grocers-page-header, .drive-thru-header, .contact-header {
   z-index: 3;
 }
 
@@ -393,12 +393,57 @@ ul.grocers-container button:active {
 .contact-info-container {
   position: relative;
   top: 130px;
-  padding-bottom: 18rem;
+  padding-bottom: 14rem;
+}
+
+.contact-info-container p {
+  padding: 0.5rem;
 }
 
 .contact-title {
   font-size: 2rem;
-  padding: 2.5rem;
+  padding: 1rem;
 } 
 
+.input-box-container {
+  padding: 2rem 4rem 8rem 4rem;
+}
+
+.input-box-container p {
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.input-box-container button {
+  margin: 0.5rem;
+  padding: 0.6rem;
+  background-color: white;
+  border: 1px solid #323232;
+  -webkit-transition: 0.2s;
+  width: 60px;
+}
+
+.input-box-container button:hover {
+  cursor: pointer;
+  background-color: #323232;
+  color: white;
+  transition: 0.2s;
+}
+
+.newsletter {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #ededed;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+}
 
